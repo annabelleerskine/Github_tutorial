@@ -17,8 +17,10 @@ library(gitcreds)
 
 #tools > Global Options to see git directory.
 
-#create a file that appears in git. Question mark means it is waiting to know whether itll be tracked or not?
+#create a file that appears in git. Question mark means it is waiting to know whether it'll be tracked or not?
 file.edit("test.R")
-
+#now we have two files!
+#currently in a local repository. Git is in a local repository. Github is an online repository. 
+file.edit("test.rmd")
 
 
