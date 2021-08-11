@@ -24,3 +24,16 @@ file.edit("test.R")
 file.edit("test.rmd")
 #first stage everything you want to commit. Can stage multiple files at once.
 
+#put files you don't want on the repository in gitignore. I just put the rmd file in gitignore.
+
+##Github!! ---------
+
+#get in to github- special password:  tokens! this is to create the token-->
+usethis::create_github_token()
+#my password!!! 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 to link r studio to github.
+#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
+#enter your access token (not the browser token)
+gitcreds::gitcreds_set()
+
+
+
