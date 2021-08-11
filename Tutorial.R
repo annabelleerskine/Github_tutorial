@@ -22,5 +22,5 @@ file.edit("test.R")
 #now we have two files!
 #currently in a local repository. Git is in a local repository. Github is an online repository. 
 file.edit("test.rmd")
-
+#first stage everything you want to commit. Can stage multiple files at once.
 
