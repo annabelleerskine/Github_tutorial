@@ -13,9 +13,12 @@ library(gitcreds)
 #usethis::edit_git_config() --> this will allow me to edit my name and email. (git credentials)
 #now want to enable git in r studio for the first time. Create a new project!! (done, Github_tutorial)
 
-#usethis::use_git()
+#usethis::use_git() - this is to bring git into a project that hasn't ticked the git button!
 
+#tools > Global Options to see git directory.
 
+#create a file that appears in git. Question mark means it is waiting to know whether itll be tracked or not?
+file.edit("test.R")
 
 
 
